@@ -1,3 +1,7 @@
+---
+layout: default
+title: Home
+---
 Was going to start blog.
 
 Fell down jekyll and other things rabbit hole.
