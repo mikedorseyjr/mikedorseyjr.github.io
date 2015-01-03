@@ -1,11 +1,18 @@
 ---
-layout: default
-title: Home
+layout: page
+title: Rumniations
+tagline: Some thoughts of mine
 ---
-Was going to start blog.
+{% include JB/setup %}
 
-Fell down jekyll and other things rabbit hole.
+My "posts list".
 
-*sigh*
+<ul class="posts">
+  {% for post in site.posts %}
+    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
 
-I will continue with these hairballs later.
+## To-Do
+
+Fix a crapton of stuff!!!
