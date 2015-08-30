@@ -4,6 +4,8 @@ title: "First Post"
 description: ""
 category:
 tags: []
+image: post_two.png
+summary: Minor disappointment to the umpteenth degree. Like, very minor
 ---
 {% include JB/setup %}
 
